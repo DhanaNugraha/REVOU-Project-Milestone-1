@@ -22,44 +22,261 @@
 
         <nav id="nav">
             <img src="Assets\logo-hospital-removebg.png" alt="logo" id="logo-header">
+
+            <svg width="100" height="100" id="hamburger">
+                <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
+            </svg>
         </nav>
 
 
         <section id="hero">
+            <ul id="hero-image-container">
+                <li class="hero-image">
+                    <img src="" alt="">
+                </li>
 
+                <li class="hero-image">
+                    <img src="" alt="">
+                </li>
+
+                <li class="hero-image">
+                    <img src="" alt="">
+                </li>
+
+                <li class="hero-image">
+                    <img src="" alt="">
+                </li>
+                <li class="hero-image">
+                    <img src="" alt="">
+                </li>
+            </ul>
+
+            <div id="heroButtonContainer">
+                <button type="button" id="heroPage1" onclick="heroP1">                    Page 1
+                </button>
+
+                <button type="button" id="heroPage2" onclick="heroP1">
+                    Page 2
+                </button>
+
+                <button type="button" id="heroPage3" onclick="heroP1">
+                    Page 3
+                </button>
+
+                <button type="button" id="heroPage4" onclick="heroP1">
+                    Page 4
+                </button>
+
+                <button type="button" id="heroPage5" onclick="heroP1">
+                    Page 5
+                </button>
+            </div>
             
         </section>
 
 
         <section id="ambulance">
-
+            <!-- add this last -->
         </section>
 
     </header>
 
     <main>
         <section id="find-a-doctor">
+            <h2>
+                Find a Doctor
+            </h2>
 
+            <form action="/api/server" method="post" id="form-findAdoctor">
+                <label for="DoctorName">Doctor Name</label>
+                <input type="text" name="DoctorName" id="DoctorName" placeholder="Search a Doctor">
+
+                <label for="HospitalBranch">Hospital Branch</label>
+                <select name="HospitalBranch" id="HospitalBranch">
+                    <option value="" disabled selected>Select a Branch</option>
+                    <option value="TangerangSelatam">Hospital Tangerang Selatan</option>
+                    <option value="Bandung">Hospital Bandung</option>
+                    <option value="Bali">Hospital Bali</option>
+                </select>
+
+                <label for="Specialty">Specialty</label>
+                <input type="text" name="Specialty" id="Specialty" placeholder="Search a Specialty">
+                
+                <label for="PreferredDate">Preferred Date</label>
+                <input type="date" id="PreferredDate" name="PreferredDate" max="2025-12-31">
+
+                <div id="form-submit">
+                    <button type="reset">
+                        Reset
+                    </button>
+
+                    <button type="submit">
+                        Find Doctor
+                    </button>
+                </div>
+
+            </form>
         </section>
 
 
-        <section id="facility-and-service">
 
+        <section id="facility-and-service">
+            <h2>
+                Facilities and Services
+            </h2>
+
+            <p>
+                As we strive to ensure that our patients obtain proper care that they deserve, we provide state of the art medical technology, top quality medical personnel, and satisfactory customer services. Learn more about what we provide below.
+            </p>
+
+            <a href="google.com">See All Facilities and Services</a>
+
+            <ul id="facilityCarouselContainer">
+                <li id="facility1Container" class="facilities">
+                    <img src="" alt="">
+                    <h3>Facility 1</h3>
+                    <p>this is the explanation of F1</p>
+                    <a href="google.com">Read More</a>
+                </li>
+
+                <li id="facility2Container" class="facilities">
+                    <img src="" alt="">
+                    <h3>Facility 2</h3>
+                    <p>this is the explanation of F2</p>
+                    <a href="google.com">Read More</a>
+                </li>
+
+                <li id="facility3Container" class="facilities">
+                    <img src="" alt="">
+                    <h3>Facility 3</h3>
+                    <p>this is the explanation of 3</p>
+                    <a href="google.com">Read More</a>
+                </li>
+
+                <li id="facility4Container" class="facilities">
+                    <img src="" alt="">
+                    <h3>Facility 4</h3>
+                    <p>this is the explanation of F4</p>
+                    <a href="google.com">Read More</a>
+                </li>
+
+                <li id="facility5Container" class="facilities">
+                    <img src="" alt="">
+                    <h3>Facility 5</h3>
+                    <p>this is the explanation of F5</p>
+                    <a href="google.com">Read More</a>
+                </li>
+            </ul>
+
+            <div id="facilityButtonContainer">
+                <button type="button" id="FacilityButtonLeft" onclick="pageLeft()">
+                    left
+                </button>
+
+                <a href="google.com">
+                    Make an Appointment
+                </a>
+        
+                <button type="button" id="FacilityButtonRight" onclick="pageRight()">
+                    right
+                </button>
+            </div>
         </section>
 
         
         <section id="patient-experience">
+            <h3>Experiences from Our Patients</h3>
+            <ul id="experienceContainer">
+                <li class="experienceImage">
+                    <img src="" alt="">
+                    <div id="exp1Text" >
+                        <h3>Name - Sickness</h3>
+                        <p>This is the desc</p>
+                    </div>
+                </li>
 
+                <li class="experienceImage">
+                    <img src="" alt="">
+                    <div id="exp2Text" >
+                        <h3>Name - Sickness</h3>
+                        <p>This is the desc</p>
+                    </div>
+                </li>
+
+                <li class="experienceImage">
+                    <img src="" alt="">
+                    <div id="exp3Text" >
+                        <h3>Name - Sickness</h3>
+                        <p>This is the desc</p>
+                    </div>
+                </li>
+
+                <li class="experienceImage">
+                    <img src="" alt="">
+                    <div id="exp4Text" >
+                        <h3>Name - Sickness</h3>
+                        <p>This is the desc</p>
+                    </div>
+                </li>
+            </ul>
+
+            <div id="ExperienceButtonContainer">
+                <button type="button" id="experiencePage1" onclick="heroP1">                    
+                    Page 1
+                </button>
+
+                <button type="button" id="experiencePage2" onclick="heroP1">
+                    Page 2
+                </button>
+
+                <button type="button" id="experiencePage3" onclick="heroP1">
+                    Page 3
+                </button>
+
+                <button type="button" id="experiencePage4" onclick="heroP1">
+                    Page 4
+                </button>
+            </div>
         </section>
 
 
         <section id="about-us">
-
+            <img src="" alt="">
+            <h3>About Us</h3>
+            <p>Desc</p>
         </section>
 
 
         <section id="awards">
+            <h2>Hospital Awards and Accreditations</h2>
 
+            <p>Award Description The following are some of the notable awards we have been given.</p>
+
+            <ul id="awardContainer">
+                <li id="award1">
+                    <img src="" alt="">
+                    <h3>Award 1</h3>
+                </li>
+
+                <li id="award2">
+                    <img src="" alt="">
+                    <h3>Award 2</h3>
+                </li>
+
+                <li id="award3">
+                    <img src="" alt="">
+                    <h3>Award 3</h3>
+                </li>
+
+                <li id="award4">
+                    <img src="" alt="">
+                    <h3>Award 4</h3>
+                </li>
+            </ul>   
+
+            <a href="google.com">
+                See All Awards and Accreditations
+            </a>
         </section>
 
 
@@ -69,16 +286,37 @@
         <img src="Assets\logo-hospital-removebg.png" alt="logo" id="logo-footer">
 
         <section id="contact-footer">
+            <p>Hospital Call Center : 1234-567</p>
+            <p>WhatsApp : 0811-1111-1111</p>
+            <ul id="footerSosmedContainer">
+                <li class="footer-sosmed">
+                    <img src="" alt="">
+                </li>
 
+                <li class="footer-sosmed">
+                    <img src="" alt="">
+                </li>
+
+                <li class="footer-sosmed">
+                    <img src="" alt="">
+                </li>
+
+            </ul>
         </section>
 
 
-        <section id="directory">   
-
+        <section id="directory">  
+            <a href="">Find a Doctor</a>
+            <a href="">Facilities and Services</a>
+            <a href="">Patient Experiences</a>
+            <a href="">About Us</a>
+            <a href="">Awards and Accreditation</a>
+            
         </section>
+
 
         <section id="copyright">
-
+            <p>© Copyright 2024, Hospital</p>
         </section>
         
     </footer>

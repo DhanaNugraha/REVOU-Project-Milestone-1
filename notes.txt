@@ -148,3 +148,13 @@ $chelsea-cucumber: #8cb454;
 }
 
 
+might need to change from buttons to just span?? for carousel (checkout w3school slideshow)
+
+arrows use  ↑ ↓ → ←
+
+idea for js, so let n = slide numebr
+
+when calling .id (name + n)
+
+display none
+display block
