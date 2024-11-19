@@ -57,7 +57,7 @@ function changePageExp(page) {
     //   "block";
 
     for (let i = 1; i < 5; i++) {
-      console.log("exp" + i)
+      // console.log("exp" + i)
       document.getElementById("exp" + i).style.display ="none";
     }
 
