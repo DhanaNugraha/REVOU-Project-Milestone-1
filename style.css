@@ -254,3 +254,43 @@ main {
 }
 
 
+
+/* About Us */
+
+#about-us {
+    margin-top: 32px;
+    /* box-shadow: 0px 0px 4px gray; */
+    /* border-radius: 16px; */
+    background-image: url(Assets/Hero-3.png);
+    background-repeat: no-repeat;
+    background-size: auto 100vh;
+    background-attachment: fixed;
+    background-color: rgba(69, 68, 68, 0.9);
+    background-blend-mode: overlay;
+    height: 100%;
+    padding: 16px;
+    background-position: center;
+    margin-left: -16px;
+    margin-right: -16px;
+
+}
+
+#aboutUsContainer {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 16px;
+}
+
+#aboutUsContainer > img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    opacity: 90%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+#aboutUsContainer > #aboutUsText {
+    padding: 12px;
+}
+
+
