@@ -232,7 +232,7 @@ main {
     justify-content: space-around;
     align-items: center;
     margin-top: 16px;
-    height: 48px;
+    height: 36px;
 }
 
 #facilityButtonContainer > a {
@@ -246,7 +246,7 @@ main {
 #facilityButtonContainer > button {
     border-radius: 50%;
     height: 100%;
-    width: 48px;
+    width: 36px;
     color: white;
     background-color: gray;
     /* box-shadow: 0px 0px 4px gray; */
@@ -268,6 +268,7 @@ main {
     display: flex;
     transition-duration: 1s;
     width: 100vw;
+    height: 350px;
     margin-left: -16px;
     margin-right: -16px;
 }
@@ -348,11 +349,11 @@ main {
 #about-us-bg {
     /* box-shadow: 0px 0px 4px gray; */
     /* border-radius: 16px; */
-    background-image: url(Assets/Hero-3.png);
+    background-image: url(Assets/about-us-bg.png);
     background-repeat: no-repeat;
     background-size: auto 100vh;
     background-attachment: fixed;
-    background-color: rgba(69, 68, 68, 0.9);
+    background-color: rgba(69, 68, 68, 0.9) ;
     background-blend-mode: overlay;
     height: 100%;
     padding: 16px;
@@ -453,6 +454,7 @@ footer > img {
 
 .footer-sosmed > img{
     width: 36px;
+    height: 36px;
     padding-right: 4px;
 }
 

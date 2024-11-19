@@ -24,6 +24,8 @@ Color palette
 
 #8cb454 cucumber for green
 
+rgba(69, 68, 68, 0.9)
+
 
 /* SCSS HEX */
 $denim: #1372b9;
