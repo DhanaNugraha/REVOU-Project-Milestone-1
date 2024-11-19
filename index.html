@@ -21,7 +21,9 @@
         </section> -->
 
         <nav id="nav">
-            <img src="Assets\logo-hospital-removebg.png" alt="logo" id="logo-header">
+            <a href="google.com">
+                <img src="Assets\logo-hospital-removebg.png" alt="logo" id="logo-header">
+            </a>
 
             <svg width="30" height="30" id="hamburger">
                 <circle cx="15" cy="15" r="13" stroke="green" stroke-width="4" fill="yellow" />
@@ -101,7 +103,7 @@
 
                 <article>
                     <label for="HospitalBranch">Hospital Branch</label>
-                    <select name="HospitalBranch" id="HospitalBranch" style="width: 100%;">
+                    <select name="HospitalBranch" id="HospitalBranch" style="width: 100%; background-color: white; border:1px solid gray;">
                         <option value="" disabled selected>Select a Branch</option>
                         <option value="TangerangSelatam">Hospital Tangerang Selatan</option>
                         <option value="Bandung">Hospital Bandung</option>
@@ -142,59 +144,80 @@
             <p>
                 As we strive to ensure that our patients obtain proper care that they deserve, we provide state of the art medical technology, top quality medical personnel, and satisfactory customer services. Learn more about what we provide below.
             </p>
+            <div id="facilityContainer">
+                <a href="google.com">See All Facilities and Services</a>
 
-            <a href="google.com">See All Facilities and Services</a>
+                <ul id="facilityCarouselContainer">
+                    <li id="facility1Container" class="facilities">
+                        <img src="Assets\Hero-1-v.png" alt="">
+                        <div class="facility-text">
+                            <div>
+                                <h3>Facility 1</h3>
+                                <p>this is the explanation of F1</p>
+                            </div>
+                            <a href="google.com">Read More</a>
+                        </div>
+                    </li>
 
-            <ul id="facilityCarouselContainer">
-                <li id="facility1Container" class="facilities">
-                    <img src="" alt="">
-                    <h3>Facility 1</h3>
-                    <p>this is the explanation of F1</p>
-                    <a href="google.com">Read More</a>
-                </li>
+                    <li id="facility2Container" class="facilities">
+                        <img src="Assets\Hero-2-v.png" alt="">
+                        <div class="facility-text">
+                            <div>
+                                <h3>Facility 2</h3>
+                                <p>this is the explanation of F2</p>
+                            </div>
+                            <a href="google.com">Read More</a>
+                        </div>
+                    </li>
 
-                <li id="facility2Container" class="facilities">
-                    <img src="" alt="">
-                    <h3>Facility 2</h3>
-                    <p>this is the explanation of F2</p>
-                    <a href="google.com">Read More</a>
-                </li>
+                    <li id="facility3Container" class="facilities">
+                        <img src="Assets\Hero-1-v.png" alt="">
+                        <div class="facility-text">
+                            <div>
+                                <h3>Facility 3</h3>
+                                <p>this is the explanation of F3</p>
+                            </div>
+                            <a href="google.com">Read More</a>
+                        </div>
+                    </li>
 
-                <li id="facility3Container" class="facilities">
-                    <img src="" alt="">
-                    <h3>Facility 3</h3>
-                    <p>this is the explanation of 3</p>
-                    <a href="google.com">Read More</a>
-                </li>
+                    <li id="facility4Container" class="facilities">
+                        <img src="Assets\Hero-2-v.png" alt="">
+                        <div class="facility-text">
+                            <div>
+                                <h3>Facility 4</h3>
+                                <p>this is the explanation of F4</p>
+                            </div>
+                            <a href="google.com">Read More</a>
+                        </div>
+                    </li>    
 
-                <li id="facility4Container" class="facilities">
-                    <img src="" alt="">
-                    <h3>Facility 4</h3>
-                    <p>this is the explanation of F4</p>
-                    <a href="google.com">Read More</a>
-                </li>
+                    <li id="facility5Container" class="facilities">
+                        <img src="Assets\Hero-1-v.png" alt="">
+                        <div class="facility-text">
+                            <div>
+                                <h3>Facility 5</h3>
+                                <p>this is the explanation of F5</p>
+                            </div>
+                            <a href="google.com">Read More</a>
+                        </div>
+                    </li>
+                </ul>
 
-                <li id="facility5Container" class="facilities">
-                    <img src="" alt="">
-                    <h3>Facility 5</h3>
-                    <p>this is the explanation of F5</p>
-                    <a href="google.com">Read More</a>
-                </li>
-            </ul>
+                <div id="facilityButtonContainer">
+                    <button type="button" id="FacilityButtonLeft" onclick="facility('left')">
+                        ←
+                    </button>
 
-            <div id="facilityButtonContainer">
-                <button type="button" id="FacilityButtonLeft" onclick="pageLeft()">
-                    left
-                </button>
-
-                <a href="google.com">
-                    Make an Appointment
-                </a>
-        
-                <button type="button" id="FacilityButtonRight" onclick="pageRight()">
-                    right
-                </button>
-            </div>
+                    <a href="google.com">
+                        Make an Appointment
+                    </a>
+                
+                    <button type="button" id="FacilityButtonRight" onclick="facility('right')">
+                        →
+                    </button>
+                </div>
+            </div>   
         </section>
 
         
