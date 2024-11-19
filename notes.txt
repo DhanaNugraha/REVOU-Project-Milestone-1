@@ -16,6 +16,14 @@ Color palette
 
 #567c22 personal
 
+#6a99be personal (blue in find doctor button)
+
+#6ba2c4 personal (blue for darker)
+
+#1372b9 denim darkest
+
+#8cb454 cucumber for green
+
 
 /* SCSS HEX */
 $denim: #1372b9;

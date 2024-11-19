@@ -154,6 +154,13 @@ main {
     gap: 16px;
 }
 
+#form-submit > button{
+    background-color: #6a99be;
+    border: 1px solid #6a99be;
+    color: white;
+    border-radius: 4px;
+}
+
 
 
 /* Facility */
@@ -172,7 +179,7 @@ main {
 
 #facilityContainer > a {
     text-decoration: none;
-    color: #567c22;
+    color: #1372b9;
 }
 
 #facilityCarouselContainer {
@@ -217,7 +224,7 @@ main {
 
 .facility-text > a {
     text-decoration: none;
-    color: #567c22;
+    color: #1372b9;
 }
 
 #facilityButtonContainer {
@@ -230,10 +237,10 @@ main {
 
 #facilityButtonContainer > a {
     text-decoration: none;
-    background-color: #cce19c50;
+    background-color: #6a99be;
     border-radius: 8px;
     padding: 8px;
-    color: #567c22;
+    color: white;
 }
 
 #facilityButtonContainer > button {
@@ -242,9 +249,9 @@ main {
     width: 48px;
     color: white;
     background-color: gray;
-    box-shadow: 0px 0px 4px gray;
+    /* box-shadow: 0px 0px 4px gray; */
     border: none;
-    opacity: 60%;
+    opacity: 40%;
 }
 
 
@@ -296,6 +303,8 @@ main {
     font-size: 12px;
     /* transition-delay: ; */
     transition-duration: 1s;
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 12px gray;
 }
 
 #ExperienceButtonContainer {
@@ -303,7 +312,7 @@ main {
     display: flex;
     justify-content: center;
     width: 100%;
-    bottom: 23%;
+    bottom: 20%;
     left: 0;
 }
 
@@ -315,7 +324,7 @@ main {
     display: inline-block;
     margin-right: 2px;
     margin-left: 2px;
-    opacity: 60%;
+    opacity: 70%;
 }
 
 @keyframes fadeIn {
@@ -381,7 +390,7 @@ main {
 
 #awards > a {
     text-decoration: none;
-    color: #567c22;
+    color: #1372b9;
 }
 
 #awardContainer {
