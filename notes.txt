@@ -178,11 +178,11 @@ display block
 
 to do list:
 1. images (done)
-2. words
+2. words (done)
 3. hamburg
 4. ambulance button
-5. hover animation
-6. animate exp
+5. hover animation (done)
+6. animate exp (ga bisa susah)
 
 facility 
 1. dialysis center

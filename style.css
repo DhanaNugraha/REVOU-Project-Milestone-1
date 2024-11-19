@@ -42,9 +42,14 @@ nav {
     margin-top: -16px;
 }
 
-#logo-header {
+#logo-nav {
     width: 35px;
     height: 35px;
+}
+
+#logo-nav:hover {
+    transform: scale(1.1);
+    opacity: 70%;
 }
 
 
@@ -154,6 +159,7 @@ main {
     gap: 16px;
 }
 
+
 #form-submit > button{
     background-color: #6a99be;
     border: 1px solid #6a99be;
@@ -261,6 +267,7 @@ main {
     padding: 8px;
     color: white;
     transition-duration: 0.5s;
+    font-size: 14px;
 }
 
 #facilityButtonContainer > a:hover {
@@ -318,6 +325,11 @@ main {
     animation-duration: 1s;
 }
 
+@keyframes fadeIn {
+    0% {opacity: 0%;}
+    100% {opacity: 100%}
+}
+
 .experienceImageList > img {
     object-fit: cover;
     width: 100%;
@@ -361,13 +373,14 @@ main {
     margin-right: 2px;
     margin-left: 2px;
     opacity: 70%;
+    transition-duration: 0.1s;
 }
 
-@keyframes fadeIn {
-    0% {opacity: 0%;}
-   
-    100% {opacity: 100%}
+.expButton:hover {
+    transform: scale(1.1);
+    opacity: 100%;
 }
+
 
 #exp2, #exp3, #exp4 {
     display: none;
@@ -427,6 +440,11 @@ main {
 #awards > a {
     text-decoration: none;
     color: #1372b9;
+    transition-duration: 0.5s;
+}
+
+#awards > a:hover {
+    color: #8cb454;
 }
 
 #awardContainer {
@@ -450,6 +468,11 @@ main {
     grid-template-rows: 80% 20%;
     margin-bottom: 16px;
     overflow: hidden;
+}
+
+.award:hover {
+    transform: scale(1.01);
+    box-shadow: 2px 2px 4px gray;
 }
 
 .award > img {
@@ -488,10 +511,14 @@ footer > img {
     padding: 0px;
 }
 
-.footer-sosmed > img{
+.footer-sosmed > img {
     width: 36px;
     height: 36px;
     padding-right: 4px;
+}
+
+.footer-sosmed > img:hover {
+    opacity: 70%;
 }
 
 #directory {
@@ -500,9 +527,14 @@ footer > img {
     color: white;
     padding-bottom: 4px;
 }
+
 #directory > a {
     text-decoration: none;
     color: white;
+}
+
+#directory > a:hover {
+    color: #8cb454;
 }
 
 
