@@ -62,14 +62,14 @@ nav {
     height: 100%;
     animation-name: heroAnimation;
     animation-duration: 20s;
-    /* animation-delay: 3s 3s 3s 3s 3s; */
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
+    
     
 }
 
 @keyframes heroAnimation {
-    0% {transform: translate(0%); animation-delay: 3s;}
+    0% {transform: translate(0%);}
     20% {transform: translate(-100%);}
     40% {transform: translate(-200%);}
     60% {transform: translate(-300%);}

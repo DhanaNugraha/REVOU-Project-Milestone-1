@@ -1,15 +1,21 @@
 
 // Animation for hero section carousel
 
-function changePageHero(shift) {
-    let heroPage = shift;
-    document.getElementById("hero-image-container").style.animationPlayState = "paused";
+function startAnimation() {
+  document.getElementById("hero-image-container").style.animationName="heroAnimation";
+  document.getElementById("hero-image-container").style.animationDuration="20s";
+}
 
-    document.getElementById("hero-image-container").style.transform =
-      "translateX(" + heroPage + "%)";
-    // console.log(expPage);
-    document.getElementById("hero-image-container").style.animationPlayState = "running";
-  }
+function changePageHero(shift) {
+  let heroPage = shift;
+  document.getElementById("hero-image-container").style.animation=
+    "none";
+  document.getElementById("hero-image-container").style.transform =
+    "translateX(" + heroPage + "%)";
+  setTimeout(startAnimation, 2000)
+ 
+  // console.log(expPage);
+}
 
 // animation for facilities carousel
 
