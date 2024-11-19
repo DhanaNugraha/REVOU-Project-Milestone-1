@@ -159,6 +159,13 @@ main {
     border: 1px solid #6a99be;
     color: white;
     border-radius: 4px;
+    transition-duration: 0.5s;
+}
+
+#form-submit > button:hover {
+    color:black;
+    background: #6a99be99;
+    border: 1px solid #6a99be99;
 }
 
 
@@ -181,6 +188,11 @@ main {
 #facilityContainer > a {
     text-decoration: none;
     color: #1372b9;
+    transition-duration: 0.5s;
+}
+
+#facilityContainer > a:hover {
+    color: #8cb454;
 }
 
 #facilityCarouselContainer {
@@ -204,6 +216,7 @@ main {
     display: grid;
     grid-template-rows: repeat(2, 50%);
     margin-right: 4%;
+    overflow: hidden;
 }
 
 .facilities > img {
@@ -226,6 +239,11 @@ main {
 .facility-text > a {
     text-decoration: none;
     color: #1372b9;
+    transition-duration: 0.5s;
+}
+
+.facility-text > a:hover {
+    color: #8cb454;
 }
 
 #facilityButtonContainer {
@@ -242,6 +260,13 @@ main {
     border-radius: 8px;
     padding: 8px;
     color: white;
+    transition-duration: 0.5s;
+}
+
+#facilityButtonContainer > a:hover {
+    color:black;
+    background: #6a99be99;
+    border: 1px solid #6a99be99;
 }
 
 #facilityButtonContainer > button {
@@ -253,7 +278,15 @@ main {
     /* box-shadow: 0px 0px 4px gray; */
     border: none;
     opacity: 40%;
+    
 }
+
+#facilityButtonContainer > button:hover {
+    transform: scale(1.15);
+    box-shadow: 2px 2px 4px gray;
+}
+
+
 
 
 /* Experience Section */
@@ -315,7 +348,7 @@ main {
     display: flex;
     justify-content: center;
     width: 100%;
-    bottom: 23%;
+    bottom: 30%;
     left: 0;
 }
 
@@ -416,6 +449,7 @@ main {
     display: grid;
     grid-template-rows: 80% 20%;
     margin-bottom: 16px;
+    overflow: hidden;
 }
 
 .award > img {
