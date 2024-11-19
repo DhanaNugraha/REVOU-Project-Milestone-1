@@ -22,10 +22,38 @@ header {
 }
 
 
-/* Nav section */
 
+/* Contact Nav section */
+#contact-nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    /* background-color: #8cb45430 ; */
+    opacity: 90%;
+}
 
+#navSosmedContainer {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    align-content: center;
+    justify-content:center
+}
 
+.nav-sosmed > img {
+    width: 24px;
+    height: 24px;
+    padding-right: 4px;
+}
+
+.nav-sosmed > img:hover {
+    opacity: 70%;
+}
+
+/* Sticky Nav section */
 nav {
     display: flex;
     align-items: center;
@@ -40,6 +68,7 @@ nav {
     background-color: #095087;
     opacity: 95%;
     margin-top: -16px;
+    margin-bottom: -16px;
 }
 
 #logo-nav {
