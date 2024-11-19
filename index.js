@@ -3,9 +3,12 @@
 
 function changePageHero(shift) {
     let heroPage = shift;
+    document.getElementById("hero-image-container").style.animationPlayState = "paused";
+
     document.getElementById("hero-image-container").style.transform =
       "translateX(" + heroPage + "%)";
     // console.log(expPage);
+    document.getElementById("hero-image-container").style.animationPlayState = "running";
   }
 
 // animation for facilities carousel
