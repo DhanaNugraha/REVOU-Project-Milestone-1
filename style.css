@@ -24,14 +24,20 @@ header {
 
 /* Nav section */
 
+
+
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
     height: 70px;
-    margin-left: 16px;
-    margin-right: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+    background-color: white;
 }
 
 #logo-header {
@@ -135,6 +141,11 @@ main {
     overflow: hidden;
 }
 
+#facilityContainer > a {
+    text-decoration: none;
+    color: #567c22;
+}
+
 #facilityCarouselContainer {
     list-style: none;
     padding-left: 0;
@@ -168,17 +179,43 @@ main {
 }
 
 .facility-text {
-    padding: 8px;
+    padding: 16px;
     padding-top: 0px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.facility-text > a {
+    text-decoration: none;
+    color: #567c22;
+}
+
 #facilityButtonContainer {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin-top: 16px;
+    height: 48px;
+}
+
+#facilityButtonContainer > a {
+    text-decoration: none;
+    background-color: #cce19c50;
+    border-radius: 8px;
+    padding: 8px;
+    color: #567c22;
+}
+
+#facilityButtonContainer > button {
+    border-radius: 50%;
+    height: 100%;
+    width: 48px;
+    color: white;
+    background-color: gray;
+    box-shadow: 0px 0px 4px gray;
+    border: none;
+    opacity: 60%;
 }
 
 
@@ -313,6 +350,11 @@ main {
     margin-top: 48px;
 }
 
+#awards > a {
+    text-decoration: none;
+    color: #567c22;
+}
+
 #awardContainer {
     display: flex;
     flex-direction: column;
@@ -354,7 +396,7 @@ main {
 
 footer {
     overflow: hidden;
-    background-color: rgb(10, 10, 121);
+    background-color: #095087;
     padding: 16px;
     color: white;
     display: flex;

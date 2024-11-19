@@ -12,6 +12,10 @@ Color palette
 --horizon: #54849c;
 --chelsea-cucumber: #8cb454;
 
+#095087 personal
+
+#567c22 personal
+
 
 /* SCSS HEX */
 $denim: #1372b9;
