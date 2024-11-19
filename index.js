@@ -1,53 +1,69 @@
 
 // Animation for hero section carousel
-let heroPage = 0;
 
-function changePage(shift) {
-    heroPage = 0 + shift;
+function changePageHero(shift) {
+    let heroPage = shift;
     document.getElementById("hero-image-container").style.transform =
       "translateX(" + heroPage + "%)";
-    // console.log(heroPage);
+    // console.log(expPage);
   }
 
 // animation for facilities carousel
 
-let curPos = 0
+let curPosFacility = 0
 
 function facility(direction) {
   if (direction == 'right') {
-    if (curPos == 4) {
-      curPos = 0
+    if (curPosFacility == 4) {
+      curPosFacility = 0
       let newPage = 0
-      console.log(curPos);
+      // console.log(curPosFacility);
       document.getElementById("facilityCarouselContainer").style.transform ="translateX(" + newPage + "%)";
-      console.log(curPos);
+      // console.log(curPosFacility);
     }
     else {
-      let newPage = (-curPos * 100) - 100
-      console.log(curPos);
+      let newPage = (-curPosFacility * 100) - 100 - (4*(curPosFacility+1))
+      // 100 for normal shift, 4 for margin
+      // console.log(curPosFacility);
       document.getElementById("facilityCarouselContainer").style.transform ="translateX(" + newPage + "%)";
-      console.log(curPos);
-      curPos += 1
+      // console.log(curPosFacility);
+      curPosFacility += 1
     }
     
   }
 
   else if (direction == 'left') {
-    if (curPos == 0) {
-      curPos = 4
+    if (curPosFacility == 0) {
+      curPosFacility = 4
       let newPage = -400
-      console.log(curPos);
+      // console.log(curPosFacility);
       document.getElementById("facilityCarouselContainer").style.transform ="translateX(" + newPage + "%)";
-      console.log(curPos);
+      // console.log(curPosFacility);
     }
     else {
-      let newPage = (-curPos * 100) + 100
-      console.log(curPos);
+      let newPage = (-curPosFacility * 100) + 100 + (4*(curPosFacility-1))
+      // console.log(curPosFacility);
       document.getElementById("facilityCarouselContainer").style.transform ="translateX(" + newPage + "%)";
-      console.log(curPos);
-      curPos -= 1
+      // console.log(curPosFacility);
+      curPosFacility -= 1
     }
   }
+}
+
+// Animation for experience section carousel
+
+function changePageExp(page) {
+    // document.getElementById("exp"+ String(expPage) ).style.display =
+    //   "block";
+
+    for (let i = 1; i < 5; i++) {
+      console.log("exp" + i)
+      document.getElementById("exp" + i).style.display ="none";
+    }
+
+    document.getElementById("exp" + page).style.display ="block";
 
   
-}
+    // document.getElementsById("exp4").style.display =
+    // "none";
+  }

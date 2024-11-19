@@ -69,15 +69,15 @@
             </ul>
 
             <div id="heroButtonContainer">
-                <button type="button" class="heroButton" id="heroPage1" onclick="changePage(0)"></button>
+                <button type="button" class="heroButton" id="heroPage1" onclick="changePageHero(0)"></button>
 
-                <button type="button" class="heroButton" id="heroPage2" onclick="changePage(-100)"></button>
+                <button type="button" class="heroButton" id="heroPage2" onclick="changePageHero(-100)"></button>
 
-                <button type="button" class="heroButton" id="heroPage3" onclick="changePage(-200)"></button>
+                <button type="button" class="heroButton" id="heroPage3" onclick="changePageHero(-200)"></button>
 
-                <button type="button" class="heroButton" id="heroPage4" onclick="changePage(-300)"></button>
+                <button type="button" class="heroButton" id="heroPage4" onclick="changePageHero(-300)"></button>
 
-                <button type="button" class="heroButton" id="heroPage5" onclick="changePage(-400)"></button>
+                <button type="button" class="heroButton" id="heroPage5" onclick="changePageHero(-400)"></button>
             </div>
             
         </section>
@@ -222,57 +222,49 @@
 
         
         <section id="patient-experience">
-            <h3>Experiences from Our Patients</h3>
+            <h2>Experiences from Our Patients</h2>
             <ul id="experienceContainer">
-                <li class="experienceImage">
-                    <img src="" alt="">
-                    <div id="exp1Text" >
-                        <h3>Name - Sickness</h3>
-                        <p>This is the desc</p>
+                <li class="experienceImageList" id="exp1">
+                    <img src="Assets\Hero-1-v.png" alt="">
+                    <div id="exp1Text" class="expText">
+                        <p style="font-weight: bold;">Name - Sickness 1</p>
+                        <p>This is the desc 1</p>
                     </div>
                 </li>
 
-                <li class="experienceImage">
-                    <img src="" alt="">
-                    <div id="exp2Text" >
-                        <h3>Name - Sickness</h3>
-                        <p>This is the desc</p>
+                <li class="experienceImageList" id="exp2">
+                    <img src="Assets\Hero-3-v.png" alt="">
+                    <div id="exp2Text" class="expText">
+                        <p style="font-weight: bold;">Name - Sickness 2</p>
+                        <p>This is the desc 2</p>
                     </div>
                 </li>
 
-                <li class="experienceImage">
-                    <img src="" alt="">
-                    <div id="exp3Text" >
-                        <h3>Name - Sickness</h3>
-                        <p>This is the desc</p>
+                <li class="experienceImageList" id="exp3">
+                    <img src="Assets\Hero-1-v.png" alt="">
+                    <div id="exp3Text" class="expText">
+                        <p style="font-weight: bold;">Name - Sickness 3</p>
+                        <p>This is the desc 3</p>
                     </div>
                 </li>
 
-                <li class="experienceImage">
-                    <img src="" alt="">
-                    <div id="exp4Text" >
-                        <h3>Name - Sickness</h3>
-                        <p>This is the desc</p>
+                <li class="experienceImageList" id="exp4">
+                    <img src="Assets\Hero-3-v.png" alt="">
+                    <div id="exp4Text" class="expText">
+                        <p style="font-weight: bold;">Name - Sickness 4</p>
+                        <p>This is the desc 4</p>
                     </div>
                 </li>
             </ul>
 
             <div id="ExperienceButtonContainer">
-                <button type="button" id="experiencePage1" onclick="heroP1">                    
-                    Page 1
-                </button>
+                <button type="button" id="experiencePage1" onclick="changePageExp(1)" class="expButton"></button>
 
-                <button type="button" id="experiencePage2" onclick="heroP1">
-                    Page 2
-                </button>
+                <button type="button" id="experiencePage2" onclick="changePageExp(2)" class="expButton"></button>
 
-                <button type="button" id="experiencePage3" onclick="heroP1">
-                    Page 3
-                </button>
+                <button type="button" id="experiencePage3" onclick="changePageExp(3)" class="expButton"></button>
 
-                <button type="button" id="experiencePage4" onclick="heroP1">
-                    Page 4
-                </button>
+                <button type="button" id="experiencePage4" onclick="changePageExp(4)" class="expButton"></button>
             </div>
         </section>
 
