@@ -170,3 +170,19 @@ when calling .id (name + n)
 
 display none
 display block
+
+
+
+
+to do list:
+1. images
+2. words
+3. hamburg
+4. ambulance button
+
+facility 
+1. dialysis center
+2. diagnostic center
+3. inpatient care facility
+4. outpatient care facility
+5. Physiotherapy facility
