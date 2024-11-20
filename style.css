@@ -88,7 +88,7 @@ header {
     background-color: rgba(0, 0, 0, 0.5);
     visibility: hidden;
     opacity: 0;
-    /* z-index: -1; */
+    z-index: -1;
 }
 
 /* #ambulanceContentBg:hover {
@@ -98,10 +98,20 @@ header {
 #ambulanceContentContainer {
     position: absolute;
     border: 1px solid white;
-    width: 80vw;
-    height: 60vhh;
-    transform: translate(5vw, 25vh);
+    width: 90vw;
+    height: 50vh;
+    transform: translate(5vw, 21vh);
     background-color: white;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+#ambulanceButton:checked + label > img {
+    background-color: yellow;
 }
 
 #ambulanceButton:checked ~ #ambulanceContentBg {
@@ -109,6 +119,28 @@ header {
     opacity: 1;
 }
 
+.ambulanceContent  {
+    list-style: none;
+}
+
+.ambulanceContent > a {
+    text-decoration: none;
+}
+
+.ambulanceContent > a > h3 {
+    color: white;
+    background-color: #8cb454;
+    padding: 8px;
+    border-radius: 8px;
+    width: 75vw;
+    box-shadow: 0px 0px 4px black;
+}
+
+.ambulanceContent > a > h3:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 2px 4px black;
+    background-color: #8cb45490;
+}
 
 
 /* Sticky Nav section */
