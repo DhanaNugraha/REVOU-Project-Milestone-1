@@ -33,7 +33,7 @@ header {
     height: 100%;
     /* background-color: #8cb45430 ; */
     opacity: 90%;
-    background-color: #8cc443;
+    background-color: #095087;
 }
 
 #navSosmedContainer {
@@ -59,6 +59,7 @@ header {
 #contact-nav > p {
     margin-top: 12px;
     font-weight: bold;
+    color: white;
 }
 
 /* Ambulance */
