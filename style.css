@@ -30,8 +30,10 @@ header {
     align-content: center;
     padding-left: 16px;
     padding-right: 16px;
+    height: 100%;
     /* background-color: #8cb45430 ; */
     opacity: 90%;
+    background-color: #8cc443;
 }
 
 #navSosmedContainer {
@@ -40,7 +42,8 @@ header {
     padding: 0px;
     align-items: center;
     align-content: center;
-    justify-content:center
+    justify-content:center;
+    margin-top: 12px;
 }
 
 .nav-sosmed > img {
@@ -51,6 +54,11 @@ header {
 
 .nav-sosmed > img:hover {
     opacity: 70%;
+}
+
+#contact-nav > p {
+    margin-top: 12px;
+    font-weight: bold;
 }
 
 /* Ambulance */
@@ -101,7 +109,7 @@ header {
     position: absolute;
     border: 1px solid white;
     width: 90vw;
-    height: 50vh;
+    height: 55vh;
     transform: translate(6vw, 21vh);
     background-color: white;
     padding: 0;
@@ -157,7 +165,7 @@ nav {
     top: 0;
     position: sticky;
     z-index: 1;
-    background-color: #8cc443;
+    background-color: white;
     opacity: 95%;
     margin-top: -16px;
     margin-bottom: -16px;
@@ -356,13 +364,6 @@ nav {
     opacity: 100%;
 }
 
-
-
-/* ambulance */
-
-#ambulance {
-    display: none;
-}
 
 
 main {
