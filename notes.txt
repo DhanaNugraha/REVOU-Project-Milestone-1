@@ -182,6 +182,9 @@ to do list:
 2. ambulance button
 3. media query
 5. isi alt images
+6. hero bisa anim, jadi bikin 4 extra anim for each case. nanti kalo klik nonmor brp brubah anim
+7. ganti warna
+
 
 facility 
 1. dialysis center
