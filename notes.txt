@@ -30,6 +30,9 @@ rgba(69, 68, 68, 0.9)
 
 try 30c00
 
+ 
+#35bfdf biru ibu
+
 
 /* SCSS HEX */
 $denim: #1372b9;
