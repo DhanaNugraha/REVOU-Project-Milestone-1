@@ -279,8 +279,6 @@ nav {
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
-    
-    
 }
 
 @keyframes heroAnimation1 {
@@ -838,6 +836,7 @@ footer > img {
     #experienceContainer {
         margin-left: -20px;
         margin-right: -20px;
+        height: 75vh;
     }
 } 
 
@@ -860,6 +859,7 @@ footer > img {
     #logo-footer {
         grid-column: 1/2;
         grid-row: 1/2;
+        margin-top: 16px;
     }
 } 
 
@@ -889,6 +889,13 @@ footer > img {
 
 
 /* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    #hero {
+        height: 80vh;
+    }
+}
+
 @media only screen and (min-width: 992px) {
     .facilities {
         grid-template-rows: 50% 50%;
@@ -898,12 +905,6 @@ footer > img {
 @media only screen and (min-width: 992px) {
     #facilityCarouselContainer {
         width: 48%;
-    }
-} 
-
-@media only screen and (min-width: 992px) {
-    #experienceContainer {
-        height: 550px;
     }
 } 
 
@@ -940,8 +941,45 @@ footer > img {
     }
 } 
 
+@media only screen and (min-width: 992px) {
+    footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto 32px;
+    }
+} 
+
+@media only screen and (min-width: 992px) {
+    #logo-footer {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+} 
+
+@media only screen and (min-width: 992px) {
+    #contact-footer {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+} 
+
+@media only screen and (min-width: 992px) {
+    #directory {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+} 
+
+@media only screen and (min-width: 992px) {
+    #copyright {
+        grid-column: 1/4;
+        grid-row: 2/3;
+        justify-self: center;
+    }
+} 
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-
+    
 }
