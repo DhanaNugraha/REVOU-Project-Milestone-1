@@ -88,6 +88,12 @@ nav {
 #hamburger + label > img {
     width: 35px;
     height: 35px;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}   
+
+#hamburger + label > img:hover {
+    transform: scale(1.1);
 }   
 
 #closeImg {
