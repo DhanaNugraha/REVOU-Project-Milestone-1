@@ -187,6 +187,8 @@ nav {
 }
 
 #navDirectoryContainer {
+    position: absolute;
+    left: 10%;
     width: 80%;
     display: flex;
     justify-content: space-evenly;
@@ -923,6 +925,13 @@ footer > img {
         display: flex;
     }
 }
+
+@media only screen and (min-width: 992px) {
+    #hamburgerSection{
+        display: none;
+    }
+}
+
 
 @media only screen and (min-width: 992px) {
     #hero {

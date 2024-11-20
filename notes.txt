@@ -184,7 +184,6 @@ display block
 
 
 to do list:
-3. media query
 8. kalo niat hero section button dibikin highlight pas di pagenya (bikin 5 animasi jg jadi 20s and stuff)
 10. animation for experience sebenernya bisa, pake set timeout
 
