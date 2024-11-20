@@ -186,6 +186,34 @@ nav {
     opacity: 70%;
 }
 
+#navDirectoryContainer {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0;
+    display: none;
+}
+
+.navDirectory {
+    list-style: none;
+}
+
+.navDirectory:hover{
+    transform: scale(1.1);
+}
+
+
+.navDirectory > a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #1372b9;
+}
+
+.navDirectory > a:hover {
+    color: #8cb454;
+}
+
+/* Hamburger */
 #hamburgerSection {
     margin-top: 8px;
 }
@@ -217,7 +245,7 @@ nav {
 }
 
 
-#navDirectoryContainer {
+#hamburgerDirectoryContainer {
     position: absolute;
     list-style: none;
     margin: 0;
@@ -238,18 +266,18 @@ nav {
     border-bottom: 1px solid rgb(128, 128, 128, 50%);
 }
 
-#hamburger:checked ~ #navDirectoryContainer {
+#hamburger:checked ~ #hamburgerDirectoryContainer {
     visibility: visible;
     opacity: 1;
 }
 
-.navDirectory {
+.hamburgerDirectory {
     border-top: 1px solid rgb(128, 128, 128, 50%);
     height: 100%;
     align-content: center;
 }
 
-.navDirectory > a {
+.hamburgerDirectory > a {
     text-decoration: none;
     color: black;
     padding-left: 16px;
@@ -258,7 +286,7 @@ nav {
     /* border: 1px solid; */
 }
 
-.navDirectory > :hover {
+.hamburgerDirectory > :hover {
     color: #8cb454;
 }
 
@@ -891,6 +919,12 @@ footer > img {
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {
+    #navDirectoryContainer {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 992px) {
     #hero {
         height: 80vh;
     }
@@ -981,5 +1015,5 @@ footer > img {
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    
+
 }
