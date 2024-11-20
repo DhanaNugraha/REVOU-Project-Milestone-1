@@ -715,8 +715,8 @@ main {
 }
 
 .award:hover {
-    transform: scale(1.01);
-    box-shadow: 2px 2px 4px gray;
+    transform: scale(1.02);
+    box-shadow: 3px 3px 6px gray;
 }
 
 .award > img {
