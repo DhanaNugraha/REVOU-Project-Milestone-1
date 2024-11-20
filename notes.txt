@@ -181,7 +181,6 @@ to do list:
 1. hamburg
 2. ambulance button
 3. media query
-5. isi alt images
 6. hero bisa anim, jadi bikin 4 extra anim for each case. nanti kalo klik nonmor brp brubah anim
 7. ganti warna
 
@@ -192,3 +191,5 @@ facility
 3. inpatient care facility
 4. outpatient care facility
 5. Physiotherapy facility
+
+setTimeout(function() { playNote(currentaudio.id,noteTime) }, delay);

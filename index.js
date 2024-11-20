@@ -1,19 +1,20 @@
 
 // Animation for hero section carousel
 
-function startAnimation() {
-  document.getElementById("hero-image-container").style.animationName="heroAnimation";
+function startAnimation(number) {
+  document.getElementById("hero-image-container").style.animationName = "heroAnimation" + number;
   document.getElementById("hero-image-container").style.animationDuration="20s";
+  document.getElementById("hero-image-container").style.animationIterationCount="infinite";
+  document.getElementById("hero-image-container").style.animationTimingFunction="ease-out";
 }
 
-function changePageHero(shift) {
+function changePageHero(shift, number) {
   let heroPage = shift;
   document.getElementById("hero-image-container").style.animation=
     "none";
   document.getElementById("hero-image-container").style.transform =
     "translateX(" + heroPage + "%)";
-  setTimeout(startAnimation, 2000)
- 
+  setTimeout(function() {startAnimation(number)}, 1000)
   // console.log(expPage);
 }
 

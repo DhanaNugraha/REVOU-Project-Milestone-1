@@ -94,7 +94,7 @@ nav {
     display: flex;
     transition-duration: 1s;
     height: 100%;
-    animation-name: heroAnimation;
+    animation-name: heroAnimation1;
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-out;
@@ -102,7 +102,7 @@ nav {
     
 }
 
-@keyframes heroAnimation {
+@keyframes heroAnimation1 {
     0% {transform: translate(0%);}
     20% {transform: translate(-100%);}
     40% {transform: translate(-200%);}
@@ -110,6 +110,43 @@ nav {
     80% {transform: translate(-400%);}
     100% {transform: translate(0%);}
 }
+
+@keyframes heroAnimation2 {
+    0% {transform: translate(-100%);}
+    20% {transform: translate(-200%);}
+    40% {transform: translate(-300%);}
+    60% {transform: translate(-400%);}
+    80% {transform: translate(0%);}
+    100% {transform: translate(-100%);}
+}
+
+@keyframes heroAnimation3 {
+    0% {transform: translate(-200%);}
+    20% {transform: translate(-300%);}
+    40% {transform: translate(-400%);}
+    60% {transform: translate(0%);}
+    80% {transform: translate(-100%);}
+    100% {transform: translate(-200%);}
+}
+
+@keyframes heroAnimation4 {
+    0% {transform: translate(-300%);}
+    20% {transform: translate(-400%);}
+    40% {transform: translate(0%);}
+    60% {transform: translate(-100%);}
+    80% {transform: translate(-200%);}
+    100% {transform: translate(-300%);}
+}
+
+@keyframes heroAnimation5 {
+    0% {transform: translate(-400%);}
+    20% {transform: translate(0%);}
+    40% {transform: translate(-100%);}
+    60% {transform: translate(-200%);}
+    80% {transform: translate(-300%);}
+    100% {transform: translate(-400%);}
+}
+
 
 .hero-image-list {
     list-style: none;
@@ -143,6 +180,10 @@ nav {
     margin-right: 2px;
     margin-left: 2px;
     opacity: 50%;
+}
+
+.heroButton:hover {
+    opacity: 100%;
 }
 
 
