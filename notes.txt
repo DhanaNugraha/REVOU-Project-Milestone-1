@@ -183,6 +183,7 @@ to do list:
 7. ganti warna
 8. kalo niat hero section button dibikin highlight pas di pagenya (bikin 5 animasi jg jadi 20s and stuff)
 9. make nav opacity low then increase when hovered?
+10. animation for experience sebenernya bisa, pake set timeout
 
 
 facility 

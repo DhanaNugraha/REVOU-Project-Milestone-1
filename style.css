@@ -53,6 +53,64 @@ header {
     opacity: 70%;
 }
 
+/* Ambulance */
+
+#ambulanceSection {
+    position: absolute;
+    transform: translate(80vw, 80vh)
+}
+
+#ambulanceButton {
+    display: none;
+}
+
+#ambulanceButton + label > img {
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+    border-radius: 50%;
+    object-fit: contain;
+    /* background-color: rgba(255, 0, 0, 0.158); */
+    background-color: rgba(255, 255, 0, 0.1);
+}   
+
+#ambulanceButton + label > img:hover {
+    transform: scale(1.1);
+    background-color: yellow;
+}
+
+#ambulanceContentBg {
+    position: absolute;
+    border: 1px solid black;
+    height: 101vh;
+    width: 101vw;
+    transform: translate(-85vw, -88vh);
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    /* z-index: -1; */
+}
+
+/* #ambulanceContentBg:hover {
+    display: none;
+} */
+
+#ambulanceContentContainer {
+    position: absolute;
+    border: 1px solid white;
+    width: 80vw;
+    height: 60vhh;
+    transform: translate(5vw, 25vh);
+    background-color: white;
+}
+
+#ambulanceButton:checked ~ #ambulanceContentBg {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
 /* Sticky Nav section */
 nav {
     display: flex;
@@ -135,12 +193,10 @@ nav {
 }
 
 .navDirectory {
-    border-top: 1px solid rgb(128, 128, 128, 50%);
+    border-bottom: 1px solid rgb(128, 128, 128, 50%);
     height: 100%;
     align-content: center;
 }
-
-
 
 .navDirectory > a {
     text-decoration: none;
