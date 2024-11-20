@@ -218,7 +218,6 @@ nav {
     visibility: hidden;
     opacity: 0;
     transition-duration: 0.5s;
-    color: black;
 }
 
 #hamburger:checked ~ #navDirectoryContainer {
@@ -237,6 +236,7 @@ nav {
     color: black;
     padding-left: 16px;
     padding-right: 16px;
+    font-weight: bold;
     /* border: 1px solid; */
 }
 
