@@ -26,6 +26,8 @@ Color palette
 
 rgba(69, 68, 68, 0.9)
 
+#3fff00 green bapak
+
 
 /* SCSS HEX */
 $denim: #1372b9;
@@ -177,12 +179,8 @@ display block
 
 
 to do list:
-1. hamburg
-2. ambulance button
 3. media query
-7. ganti warna
 8. kalo niat hero section button dibikin highlight pas di pagenya (bikin 5 animasi jg jadi 20s and stuff)
-9. make nav opacity low then increase when hovered?
 10. animation for experience sebenernya bisa, pake set timeout
 
 
