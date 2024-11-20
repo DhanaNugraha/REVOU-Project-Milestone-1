@@ -72,7 +72,7 @@ header {
     border-radius: 50%;
     object-fit: contain;
     /* background-color: rgba(255, 0, 0, 0.158); */
-    background-color: rgba(255, 255, 0, 0.3);
+    background-color: rgba(255, 255, 0, 0.1);
 }   
 
 #ambulanceButton + label > img:hover {
@@ -157,7 +157,7 @@ nav {
     top: 0;
     position: sticky;
     z-index: 1;
-    background-color: #35bfdf;
+    background-color: #8cc44380;
     opacity: 95%;
     margin-top: -16px;
     margin-bottom: -16px;
@@ -166,18 +166,11 @@ nav {
 #logo-nav {
     width: 35px;
     height: 35px;
-    background-color: white;
-    border-radius: 50%;
-    margin-top: 8px;
 }
 
 #logo-nav:hover {
     transform: scale(1.1);
     opacity: 70%;
-}
-
-#hamburgerSection {
-    margin-top: 8px;
 }
 
 #hamburger {
@@ -384,7 +377,7 @@ main {
 }
 
 #find-a-doctor  > h2 {
-    background-color: #35bfdf;
+    background-color: #84c33d;
     margin-top: -8px;
     margin-left: -16px;
     margin-right: -16px;
@@ -401,9 +394,9 @@ main {
 
 
 #form-submit > button{
-    background-color: #35bfdf;
-    border: 1px solid #35bfdf;
-    color: rgba(0, 0, 0, 0.8);
+    background-color: #8cb454;
+    border: 1px solid #8cb454;
+    color: white;
     border-radius: 4px;
     transition-duration: 0.5s;
 }
@@ -502,10 +495,10 @@ main {
 
 #facilityButtonContainer > a {
     text-decoration: none;
-    background-color: #35bfdf;
+    background-color: #8cb454;
     border-radius: 8px;
     padding: 8px;
-    color: rgba(0, 0, 0, 0.8);
+    color: white;
     transition-duration: 0.5s;
     font-size: 14px;
 }
@@ -525,6 +518,7 @@ main {
     /* box-shadow: 0px 0px 4px gray; */
     border: none;
     opacity: 40%;
+    
 }
 
 #facilityButtonContainer > button:hover {
@@ -733,17 +727,15 @@ main {
 
 footer {
     overflow: hidden;
-    background-color: #35bfdf;
+    background-color: #095087;
     padding: 16px;
-    color: black;
+    color: white;
     display: flex;
     flex-direction: column;
 }
 
 footer > img {
     width: 88px;
-    background-color: white;
-    border-radius: 50%;
 }
 
 #footerSosmedContainer {
@@ -765,13 +757,13 @@ footer > img {
 #directory {
     display: flex;
     flex-direction: column;
-    color: black;
+    color: white;
     padding-bottom: 4px;
 }
 
 #directory > a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 #directory > a:hover {
