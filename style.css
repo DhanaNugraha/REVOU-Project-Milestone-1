@@ -81,6 +81,73 @@ nav {
     opacity: 70%;
 }
 
+#hamburger {
+    display: none;
+}
+
+#hamburger + label > img {
+    width: 35px;
+    height: 35px;
+}   
+
+#closeImg {
+    display: none;
+}
+#hamburger:checked + label > img {
+    display: none;
+}
+
+#hamburger:checked + label #closeImg {
+    display: block;
+}
+
+
+#navDirectoryContainer {
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: repeat(6, 1fr);
+    align-items: center;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 70vh;
+    justify-content: space-around;
+    background-color: white;
+    transform: translate(0, 70px);
+    visibility: hidden;
+    opacity: 0;
+    transition-duration: 0.5s;
+    color: black;
+}
+
+#hamburger:checked ~ #navDirectoryContainer {
+    visibility: visible;
+    opacity: 1;
+}
+
+.navDirectory {
+    border-top: 1px solid rgb(128, 128, 128, 50%);
+    height: 100%;
+    align-content: center;
+}
+
+
+
+.navDirectory > a {
+    text-decoration: none;
+    color: black;
+    padding-left: 16px;
+    padding-right: 16px;
+    /* border: 1px solid; */
+}
+
+.navDirectory > :hover {
+    color: #8cb454;
+}
+
 
 /* Hero Section */
 

@@ -177,12 +177,12 @@ display block
 
 
 to do list:
-1. add wa number on top
 1. hamburg
 2. ambulance button
 3. media query
-6. hero bisa anim, jadi bikin 4 extra anim for each case. nanti kalo klik nonmor brp brubah anim
 7. ganti warna
+8. kalo niat hero section button dibikin highlight pas di pagenya (bikin 5 animasi jg jadi 20s and stuff)
+9. make nav opacity low then increase when hovered?
 
 
 facility 
