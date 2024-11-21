@@ -26,7 +26,7 @@ Color palette
 
 rgba(69, 68, 68, 0.9)
 
-#3fff00 green bapak
+#3fff00 green 
 
 try 30c00
 
