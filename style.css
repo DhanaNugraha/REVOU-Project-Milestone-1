@@ -23,46 +23,6 @@ header {
 
 
 
-/* Contact Nav section */
-#contact-nav {
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    padding-left: 16px;
-    padding-right: 16px;
-    height: 100%;
-    /* background-color: #8cb45430 ; */
-    opacity: 90%;
-    background-color: #095087;
-}
-
-#navSosmedContainer {
-    list-style: none;
-    display: flex;
-    padding: 0px;
-    align-items: center;
-    align-content: center;
-    justify-content:center;
-    margin-top: 12px;
-}
-
-.nav-sosmed > img {
-    width: 24px;
-    height: 24px;
-    padding-right: 8px;
-}
-
-.nav-sosmed > img:hover {
-    opacity: 70%;
-}
-
-#contact-nav > p {
-    margin-top: 12px;
-    font-weight: bold;
-    color: white;
-}
-
-
 /* Ambulance */
 
 #ambulanceSection {
@@ -169,7 +129,6 @@ nav {
     z-index: 1;
     background-color: white;
     opacity: 95%;
-    margin-top: -16px;
     margin-bottom: -16px;
 }
 
@@ -297,6 +256,7 @@ nav {
 
 #hero {
     position: relative;
+    
 }
 
 #hero-image-container {
@@ -533,21 +493,6 @@ main {
     height: 36px;
 }
 
-#facilityButtonContainer > a {
-    text-decoration: none;
-    background-color: #248c24;
-    border-radius: 8px;
-    padding: 8px;
-    color: white;
-    transition-duration: 0.5s;
-    font-size: 14px;
-}
-
-#facilityButtonContainer > a:hover {
-    color:black;
-    background: #8cb45499;
-    border: 1px solid #8cb45499;
-}
 
 #facilityButtonContainer > button {
     border-radius: 50%;
@@ -770,6 +715,7 @@ footer {
     color: white;
     display: flex;
     flex-direction: column;
+    margin-top: 48px;
 }
 
 footer > img {
@@ -881,7 +827,7 @@ footer > img {
 @media only screen and (min-width: 600px) {
     footer {
         display: grid;
-        grid-template-columns: repeat(2, 50%);
+        grid-template-columns: repeat(2, 1fr) 0.5fr;
         grid-template-rows: repeat(2, auto) 32px;
     }
 } 
@@ -902,6 +848,14 @@ footer > img {
 } 
 
 @media only screen and (min-width: 600px) {
+    #gmaps{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        padding-top: 16px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
     #directory {
         grid-column: 2/3;
         grid-row: 1/3;
@@ -910,7 +864,7 @@ footer > img {
 
 @media only screen and (min-width: 600px) {
     #copyright {
-        grid-column: 1/3;
+        grid-column: 1/4;
         grid-row: 3/4;
         justify-self: center;
     }
@@ -920,6 +874,12 @@ footer > img {
 
 
 /* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+    .navDirectory > a {
+        font-size: 0.875em;
+    }
+}
 
 @media only screen and (min-width: 992px) {
     #navDirectoryContainer {
@@ -988,7 +948,7 @@ footer > img {
 @media only screen and (min-width: 992px) {
     footer {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 0.5fr repeat(2, 1fr) 0.5fr;
         grid-template-rows: auto 32px;
     }
 } 
@@ -1015,15 +975,17 @@ footer > img {
 } 
 
 @media only screen and (min-width: 992px) {
+    #gmaps {
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+} 
+
+@media only screen and (min-width: 992px) {
     #copyright {
-        grid-column: 1/4;
+        grid-column: 1/5;
         grid-row: 2/3;
         justify-self: center;
     }
 } 
 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-}
