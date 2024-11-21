@@ -1,8 +1,8 @@
-![Home Page]()
-# Hospital Website
-Welcome to [Hospital](https://pet-shop-revou-module-2-assignment.site/), where we offer comprehensive care in a compassionate and patient-centered environment. Whether you are seeking for emergency sevices, specialized treatments, or booking an appointment, we are here to guide you every step of the way.
-<br>
-Explore our website to learn more about us, our facilities, and services we offer to help you on your journey to better health. Thank you for choosing [Hospital](https://pet-shop-revou-module-2-assignment.site/) where your health is our priority.
+![Home Page](https://github.com/revou-fsse-oct24/milestone-1-DhanaNugraha/blob/main/readme-assets/siteHomePage.png)
+# Hospital Website <img src="https://github.com/revou-fsse-oct24/milestone-1-DhanaNugraha/blob/main/readme-assets/title-logo.gif" width="42">
+Welcome to [Hospital](https://pet-shop-revou-module-2-assignment.site/), where it offer comprehensive care in a compassionate and patient-centered environment. Whether you are seeking for emergency sevices, specialized treatments, or booking an appointment, it is here to guide you every step of the way.
+<br><br>
+Explore the website to learn more about the hospital, facilities, and services offered to help you on your journey to better health. Thank you for choosing [Hospital](https://pet-shop-revou-module-2-assignment.site/) where your health is priority.
 
 
 ## Table of Contents
@@ -62,7 +62,7 @@ Explore our website to learn more about us, our facilities, and services we offe
     ```
 2. Open the project directory:
     ```
-    cd REVOU-Project-Milestone-1
+    cd milestone-1-DhanaNugraha
     ```
 3. Open the `index.html` file in your browser:
     ```
@@ -84,7 +84,7 @@ You will need a github account to clone this repository, make sure you're connec
     ```
     git branch -b "feature"
     ```
-    <br> or <br>
+    or <br>
     ```
     git branch -b "fix"
     ```
@@ -93,7 +93,7 @@ You will need a github account to clone this repository, make sure you're connec
     ```
     git checkout -b "feature"
     ```
-    <br> or <br>
+    or <br>
      ```
     git checkout -b "fix"
     ```
@@ -127,8 +127,10 @@ You will need a github account to clone this repository, make sure you're connec
 
 
 ## Deployment
+The project has been successfully deployed using Netlify using a custom domain created in Niagahoster. You can access the website by following this link: https://pet-shop-revou-module-2-assignment.site/
+
 ### Custom Domain Using Niagahoster
-![Niagahoster]()
+![Niagahoster](https://github.com/revou-fsse-oct24/milestone-1-DhanaNugraha/blob/main/readme-assets/Niagahoster.png)
 - Create a Niagahoster account and login.
 - In the domain section, create a domain name that is still available for use.
 - Choose the domain extention that you want and purchase the domain.
@@ -136,7 +138,7 @@ You will need a github account to clone this repository, make sure you're connec
 - The custom domain is ready to be used.
 
 ### Deployment using Netlify
-![Netlify]()
+![Netlify](https://github.com/revou-fsse-oct24/milestone-1-DhanaNugraha/blob/main/readme-assets/Netlify.png)
 - Create a Netlify account and login
 - Connect the account to your Github account
 - In the domain management section, add the newly acquired custom domain.
