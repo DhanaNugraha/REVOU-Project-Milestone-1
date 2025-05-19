@@ -127,7 +127,7 @@ You will need a github account to clone this repository, make sure you're connec
 
 
 ## Deployment
-The project has been successfully deployed using Netlify using a custom domain created in Niagahoster. You can access the website by following this link: https://pet-shop-revou-module-2-assignment.site/
+The project has been successfully deployed using Netlify using a custom domain created in Niagahoster. You can access the website by following this link: https://hospitaldhana.netlify.app/
 
 ### Custom Domain Using Niagahoster
 ![Niagahoster](https://github.com/revou-fsse-oct24/milestone-1-DhanaNugraha/blob/main/readme-assets/Niagahoster.png)
