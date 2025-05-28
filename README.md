@@ -2,7 +2,7 @@
 # Hospital Website <img src="https://github.com/revou-fsse-oct24/milestone-1-DhanaNugraha/blob/main/readme-assets/title-logo.gif" width="42">
 Welcome to [Hospital](https://hospitaldhana.netlify.app/), where it offer comprehensive care in a compassionate and patient-centered environment. Whether you are seeking for emergency sevices, specialized treatments, or booking an appointment, it is here to guide you every step of the way.
 <br><br>
-Explore the website to learn more about the hospital, facilities, and services offered to help you on your journey to better health. Thank you for choosing [Hospital](https://pet-shop-revou-module-2-assignment.site/) where your health is priority.
+Explore the website to learn more about the hospital, facilities, and services offered to help you on your journey to better health. Thank you for choosing [Hospital](https://hospitaldhana.netlify.app/) where your health is priority.
 
 
 ## Table of Contents
